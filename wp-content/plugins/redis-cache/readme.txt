@@ -3,8 +3,8 @@ Contributors: tillkruess
 Donate link: http://till.kruss.me/donations/
 Tags: redis, predis, hhvm, pecl, caching, cache, object cache, wp object cache, server, performance, optimize, speed, load
 Requires at least: 3.3
-Tested up to: 4.2
-Stable tag: 1.1.1
+Tested up to: 4.3
+Stable tag: 1.2
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -82,6 +82,12 @@ Users with setups where multiple installs share a common `wp-config.php` or `$ta
 
 
 == Changelog ==
+
+= 1.2 =
+
+  * Added Multisite support
+  * Moved admin menu under _Settings_ menu
+  * Fixed PHP notice in `get_redis_client_name()`
 
 = 1.1.1 =
 
