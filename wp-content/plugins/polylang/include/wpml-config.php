@@ -9,6 +9,9 @@
  *
  * @since 1.0
  */
+
+define(PLL_CACHE_HOME_URL, false);
+
 class PLL_WPML_Config {
 	static protected $instance; // for singleton
 	protected $values, $index, $strings;
