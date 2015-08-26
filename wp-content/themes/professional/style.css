@@ -537,6 +537,10 @@ a:active {
 	max-width: 100%;
 }
 
+.widget_polylang {
+	float: right;
+}
+
 /* Search widget */
 .widget_search .search-submit {
 	display: none;
