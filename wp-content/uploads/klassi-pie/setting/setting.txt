@@ -1,0 +1,6 @@
+updatedDate: 2015-06-16
+currentVersion: 1.0.1
+noticeWidth: 500
+noticeHeight: 425
+adWidth: 300
+adHeight: 300
