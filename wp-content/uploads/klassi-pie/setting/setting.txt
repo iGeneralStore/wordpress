@@ -1,5 +1,5 @@
-updatedDate: 2015-06-16
-currentVersion: 1.0.1
+updatedDate: 2015-09-01
+currentVersion: 1.0.3
 noticeWidth: 500
 noticeHeight: 425
 adWidth: 300
