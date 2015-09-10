@@ -16,7 +16,9 @@
 <footer id="colophon" class="site-footer" role="contentinfo">
 	<div class="container">
 		<div class="site-info col-md-4">
-			<?php printf( __( 'Theme Provided by %1$s.', 'professional' ), '<a href="http://inkhive.com" rel="designer">InkHive</a>' ); ?>
+       		     <?php printf( __('© %1$s Co.' ), '<a href="http://www.i-generalstore.com" rel="designer">i-GeneralStore</a>' ); ?>
+                     <br><br>
+            	     <?php printf( __(' Developed by Kyunghwan Bae') ); ?>
 		</div><!-- .site-info -->
 		<div class="footer-menu col-md-8">
 			<?php 
