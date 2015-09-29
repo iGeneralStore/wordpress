@@ -216,6 +216,7 @@ function professional_initialize_header() {
 	
 }
 add_action('wp_head', 'professional_initialize_header');
+add_action('wp_head_contact_us', 'wp_head_contact_us');
 
 /*
  * Pagination Function. Implements core paginate_links function.
@@ -242,6 +243,31 @@ function professional_pagination() {
 	           echo '</ul></div></div>';
 	 }
 }
+
+function wp_head_contact_us(){
+    echo '<div style="display:none"> <!-- Contact Us(en) -->';
+    echo    '<div id="lbp-inline-href-1-en">';
+    echo        '<div id="contact-parent">';
+    echo            '<div id="contact-form">';
+    echo                '<br><br><h3><b>PAGE IS BEING PREPARED</b></h3>';
+    echo                '<h3> Please send mail to <b>igeneralstore@gmail.com</b></h3>';
+    echo            '</div>';
+    echo        '</div>';
+    echo    '</div>';
+    echo '</div>';
+
+    echo '<div style="display:none"> <!-- Contact Us(ko) -->';
+    echo    '<div id="lbp-inline-href-1-ko">';
+    echo        '<div id="contact-parent">';
+    echo            '<div id="contact-form">';
+    echo                '<br><br><h3><b>준비중입니다</b></h3>';
+    echo                '<h3><b>igeneralstore@gmail.com</b> 로 메일을 부탁드립니다</h3>';
+    echo            '</div>';
+    echo        '</div>';
+    echo    '</div>';
+    echo '</div>';
+}
+
 /*
  * Implement the Custom Header feature.
  */

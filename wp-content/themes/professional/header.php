@@ -17,6 +17,10 @@
 </head>
 <body <?php body_class(); ?>>
 <?php global $option_setting; ?>
+<?php
+// added by KH
+    do_action( 'wp_head_contact_us' );
+?>
 <div id="page" class="hfeed site">
 <div id="top-bar">
 	<div class="container">

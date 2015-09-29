@@ -297,6 +297,11 @@ a:hover {
     display: block;
     width: 80%;
   }
+
+  /* added by KH */
+  #contact-form h3 {
+    font-size: 15px;
+  }
 }
 /* -------------------- Slider -------------------*/
 #slider-wrapper {
@@ -707,6 +712,11 @@ a:hover {
   #primary article.grid2 {
     width: 100%;
   }
+
+  /* added by KH */
+  #contact-form h3 {
+    font-size: 11px;
+  }
 }
 #primary-mono #main {
   margin-top: -25px;
@@ -1023,4 +1033,10 @@ article h3 {
   #secondary-2 {
     margin-top: 25px;
   }
+}
+/*-- added by KH -- */
+#contact-form h3 { 
+    color: #ABABAB;
+    text-align: center;
+    vertical-align: middle;
 }
