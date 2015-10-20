@@ -19,11 +19,16 @@
 				<h1 class="entry-title"><a href="<?php the_permalink(); ?>" rel="bookmark"><?php 
 
 					// edit by KH
+					the_title();
+					// edit by KH
+					// long title handling cause character broken
+					/*
 					$strTitle = substr(get_the_title(),0,15);
 
 					if(strlen(get_the_title()) > 15) $strTitle = $strTitle . "...";
 					
 					echo $strTitle;
+					*/
 				
 					$strCatName;
 					$strCatLink;
