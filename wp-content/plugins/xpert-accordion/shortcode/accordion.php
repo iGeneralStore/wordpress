@@ -39,7 +39,19 @@ function accordion_shortcode_nested($attr, $content = null)
 
     $tx_acc_count++;
 
-    return '<div class="panel panel-default">
+    // added by KH
+    $tx_acc_index = $tx_acc_count - 1;
+    $query_string = $_SERVER['QUERY_STRING'];
+    parse_str($query_string, $query);
+    $accordion_index = $query['i-GeS-accordion-index']; 
+
+    if($accordion_index > 0){
+        $data['openclose'] = '';
+        if($accordion_index == $tx_acc_index) $data['openclose']='in';
+    }
+    //
+
+    return '<div class="panel panel-default" id="acc-openclose-'.$tx_acc_index.'">
                 <div class="panel-heading" role="tab" id="headingOne">
                     <h4 class="panel-title">
                         <a data-toggle="collapse" data-parent="#accordion-'. $tx_acc_item .'" href="#acc-'. $tx_acc_count .'" aria-expanded="true" aria-controls="collapseOne">
