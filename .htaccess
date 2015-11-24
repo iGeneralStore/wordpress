@@ -1,3 +1,7 @@
+## SITE REFERRER BANNING
+RewriteCond %{HTTP_REFERER} snip.to [NC,OR]
+RewriteCond %{HTTP_REFERER} snip.to
+RewriteRule .* - [F]
 
 # BEGIN WordPress
 <IfModule mod_rewrite.c>
